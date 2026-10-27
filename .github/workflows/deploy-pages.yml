@@ -55,8 +55,8 @@ jobs:
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
         with:
-          token: ${{ secrets.PAGES_TOKEN }}
-          enablement: true
+          token: ${{ github.token }}
+          enablement: false
 
       - name: Publish the portfolio
         id: deployment

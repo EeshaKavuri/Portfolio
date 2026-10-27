@@ -29,6 +29,9 @@ The workflow in `.github\workflows\deploy-pages.yml` builds and deploys
 `EeshaKavuri/Portfolio` whenever changes are pushed to `main`. It uses Node.js 24,
 installs the locked dependencies, checks formatting, builds the site, and uploads
 only `dist`. No personal access token or repository secret is needed.
+The workflow uses the automatically generated `github.token`, not a `PAGES_TOKEN`
+secret. Keep `enablement: false`; enabling the Pages site itself is a one-time
+repository setting, separate from deploying the built files.
 
 For the first deployment:
 
@@ -38,6 +41,9 @@ For the first deployment:
 3. Open **Actions > Deploy portfolio to GitHub Pages > Run workflow**, choose
    `main`, and run it. This also retries the deployment if the initial push
    triggered a run before Pages was enabled.
+
+After changing the workflow, push the correction and use the new run on `main`.
+Re-running an older failed run uses its original workflow revision, not the fix.
 
 After the deployment succeeds, the site will be available at
 `https://eeshakavuri.github.io/Portfolio/`. Future pushes to `main` redeploy it
