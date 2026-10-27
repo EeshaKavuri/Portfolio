@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 1600 1200">
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#e88151"/><stop offset="1" stop-color="#d9643b"/></linearGradient>
+    <linearGradient id="ribbon" x1="0" y1="0" x2="1" y2=".7"><stop stop-color="#eedbc0"/><stop offset=".32" stop-color="#fff4d9"/><stop offset=".61" stop-color="#cbac85"/><stop offset=".82" stop-color="#fff0d8"/><stop offset="1" stop-color="#e5c9a3"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="16" dy="22" stdDeviation="17" flood-color="#81351b" flood-opacity=".3"/></filter>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h1600v1200H0z"/>
+  <g stroke="#f7bc91" opacity=".38"><path d="M0 1090 1600 810M0 1120 1600 840M0 1150 1600 870M0 1180 1600 900M0 1210 1600 930M0 1240 1600 960"/></g>
+  <text x="102" y="273" fill="#42271e" font-family="Arial,sans-serif" font-size="215" font-weight="700" letter-spacing="-13">BIG FILES.</text>
+  <text x="102" y="480" fill="#42271e" font-family="Georgia,serif" font-size="205" font-style="italic" letter-spacing="-10">Small wait.</text>
+  <g filter="url(#shadow)">
+    <path d="M174 901c224 0 175-324 422-324h344c126 0 133 280 261 280h163" fill="none" stroke="url(#ribbon)" stroke-width="138"/>
+    <path d="m1323 699 169 158-169 158Z" fill="url(#ribbon)"/>
+    <path d="M180 844c204-20 182-324 415-324h346c157 0 152 281 268 281h160" fill="none" stroke="#ffedcf" stroke-opacity=".7" stroke-width="3"/>
+  </g>
+  <g transform="translate(76 733) rotate(-8)">
+    <rect width="347" height="153" rx="9" fill="#493025"/>
+    <text x="25" y="55" fill="#f0c6a6" font-family="monospace" font-size="17">PAYLOAD / NOT A PROBLEM</text>
+    <text x="25" y="121" fill="#fff1d9" font-family="Arial,sans-serif" font-size="65" letter-spacing="-3">5 GB+</text>
+  </g>
+  <g transform="translate(880 997)">
+    <text fill="#48291d" font-family="Arial,sans-serif" font-size="78" letter-spacing="-4">75% less latency.</text>
+    <text x="4" y="40" fill="#663b26" font-family="monospace" font-size="18">2 MINUTES → UNDER 30 SECONDS</text>
+  </g>
+</svg>

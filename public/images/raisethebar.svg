@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 1600 1200">
+  <defs>
+    <linearGradient id="side" x2="1"><stop stop-color="#94aa73"/><stop offset="1" stop-color="#7a905e"/></linearGradient>
+    <pattern id="grid" width="65" height="65" patternUnits="userSpaceOnUse"><path d="M65 0H0v65" fill="none" stroke="#8b9c6f" stroke-opacity=".3"/></pattern>
+  </defs>
+  <path fill="#d9e4b9" d="M0 0h1600v1200H0z"/>
+  <path fill="url(#grid)" d="M0 0h1600v1200H0z"/>
+  <text x="90" y="178" fill="#36422d" font-family="monospace" font-size="22">STAY CURIOUS. STAY SHARP.</text>
+  <text x="82" y="342" fill="#36422d" font-family="Arial,sans-serif" font-size="132" font-weight="700" letter-spacing="-8">YOUR NEXT</text>
+  <text x="85" y="530" fill="#36422d" font-family="Georgia,serif" font-size="200" font-style="italic" letter-spacing="-8">level.</text>
+  <text x="94" y="670" fill="#516142" font-family="Arial,sans-serif" font-size="31">Keep learning.</text>
+  <text x="94" y="716" fill="#516142" font-family="Arial,sans-serif" font-size="31">Keep building.</text>
+  <rect x="92" y="810" width="287" height="65" rx="33" fill="none" stroke="#7f9367" stroke-width="2"/>
+  <text x="124" y="851" fill="#36422d" font-family="monospace" font-size="22">DAILY PRACTICE ↗</text>
+  <g transform="translate(817 910)">
+    <path d="m0 0 133-75 120 69-133 76z" fill="#bacda0"/><path d="M0 0v98l120 70V70Z" fill="#91a777"/><path d="m120 70 133-76v99l-133 75z" fill="url(#side)"/>
+    <path d="m132-76 133-76 121 70-133 76z" fill="#bfcea2"/><path d="m132-76 121 70v197l-121-70z" fill="#91a777"/><path d="m253-6 133-76v197l-133 76z" fill="url(#side)"/>
+    <path d="m265-246 133-76 121 70-133 76z" fill="#c4d5aa"/><path d="m265-246 121 70v290l-121-70z" fill="#98ad7e"/><path d="m386-176 133-76v289l-133 77z" fill="url(#side)"/>
+    <path d="m398-419 133-76 120 70-132 76z" fill="#e9f1cf"/><path d="m398-419 121 70V38L398-32z" fill="#adc293"/><path d="m519-349 132-76v386L519 37z" fill="url(#side)"/>
+  </g>
+  <path d="M842 742c58-110 130-172 223-205" fill="none" stroke="#4b5d3b" stroke-width="3" stroke-linecap="round"/><path d="m1038 519 36 13-11 35" fill="none" stroke="#4b5d3b" stroke-width="3" stroke-linecap="round"/>
+  <text x="91" y="1084" fill="#516142" font-family="Arial,sans-serif" font-size="28">RaiseTheBar / Engineering, as a practice.</text>
+</svg>

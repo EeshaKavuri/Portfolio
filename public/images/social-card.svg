@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <path fill="#eeeee8" d="M0 0h1200v630H0z"/>
+  <circle cx="1013" cy="225" r="241" fill="#cbc0ef"/>
+  <text x="70" y="98" fill="#53554d" font-family="monospace" font-size="18">ENGINEER. BUILDER. DOT CONNECTOR.</text>
+  <text x="51" y="371" fill="#20211f" font-family="Arial,sans-serif" font-size="287" font-weight="700" letter-spacing="-24">EESHA.</text>
+  <path d="M74 429h1052" stroke="#92968a"/>
+  <text x="74" y="496" fill="#20211f" font-family="Arial,sans-serif" font-size="32">Complex problems. Thoughtful software. A human touch.</text>
+  <text x="74" y="564" fill="#53554d" font-family="monospace" font-size="18">KAVURI SRI EESHA / SOFTWARE ENGINEER AT MICROSOFT</text>
+</svg>

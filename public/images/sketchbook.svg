@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 1600 1200">
+  <defs>
+    <pattern id="dots" width="30" height="30" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.1" fill="#bfaaa4" opacity=".48"/></pattern>
+    <filter id="shadow"><feDropShadow dx="0" dy="14" stdDeviation="15" flood-color="#6e4942" flood-opacity=".12"/></filter>
+  </defs>
+  <path fill="#e8d7cc" d="M0 0h1600v1200H0z"/>
+  <path fill="url(#dots)" d="M0 0h1600v1200H0z"/>
+  <text x="100" y="187" fill="#463832" font-family="Georgia,serif" font-size="117" font-style="italic" letter-spacing="-5">Make room for</text>
+  <text x="104" y="315" fill="#463832" font-family="Arial,sans-serif" font-size="117" font-weight="600" letter-spacing="-7">the next thought.</text>
+  <g stroke="#6f5851" stroke-width="2" fill="none" stroke-dasharray="6 7">
+    <path d="M412 689c89 0 125-166 256-139M960 560c181 5 100 182 208 210M829 713c-88 181-183 155-231 185"/>
+  </g>
+  <g transform="translate(113 448) rotate(-9 220 152)" filter="url(#shadow)">
+    <rect width="410" height="311" rx="5" fill="#fbf5e9"/>
+    <rect x="22" y="24" width="77" height="24" rx="12" fill="#ddcdea"/>
+    <text x="35" y="41" fill="#654475" font-family="monospace" font-size="11">SOURCE 01</text>
+    <text x="25" y="99" fill="#4a3e36" font-family="Arial,sans-serif" font-size="28">Start with a question.</text>
+    <path d="M26 129h263M26 150h330M26 171h313M26 192h225" stroke="#c0b5a9" stroke-width="5"/>
+    <rect x="24" y="230" width="221" height="48" rx="5" fill="#f0e0bb"/>
+    <text x="38" y="260" fill="#6c5945" font-family="monospace" font-size="14">What connects these ideas?</text>
+  </g>
+  <g transform="translate(599 391) rotate(6 214 192)" filter="url(#shadow)">
+    <rect width="444" height="383" rx="6" fill="#ccc0e3"/>
+    <text x="30" y="53" fill="#4c3a5f" font-family="monospace" font-size="13">A CONTINUOUS THREAD</text>
+    <g stroke="#695080" stroke-width="1.8" fill="none"><path d="M217 112 102 221l226 1-111-110 1 172-116-63M218 284l110-62"/></g>
+    <circle cx="217" cy="112" r="34" fill="#f9f0df"/><circle cx="102" cy="221" r="25" fill="#f4b99c"/><circle cx="328" cy="222" r="31" fill="#f9f0df"/><circle cx="218" cy="284" r="20" fill="#ddedae"/>
+    <text x="91" y="348" fill="#4c3a5f" font-family="Georgia,serif" font-size="29" font-style="italic">See the connections.</text>
+  </g>
+  <g transform="translate(1091 556) rotate(12 178 162)" filter="url(#shadow)">
+    <rect width="329" height="351" rx="5" fill="#f8f1df"/>
+    <text x="26" y="48" fill="#5b473d" font-family="monospace" font-size="13">THE NEXT CHAPTER</text>
+    <path d="M46 142c61-73 119-51 205-66M239 68l22 6-9 24M49 153c25 71 136 103 207 38M234 178l24 9-13 17" fill="none" stroke="#a57357" stroke-width="3" stroke-linecap="round"/>
+    <text x="27" y="274" fill="#4d3d35" font-family="Arial,sans-serif" font-size="31">Less linear.</text>
+    <text x="27" y="313" fill="#4d3d35" font-family="Arial,sans-serif" font-size="31">More possibility.</text>
+  </g>
+  <g transform="translate(350 859) rotate(-5)">
+    <rect width="581" height="111" rx="55" fill="#e5edbc" stroke="#6d7753" stroke-width="1"/>
+    <text x="38" y="71" fill="#3e4830" font-family="Arial,sans-serif" font-size="43" letter-spacing="-2">Sketchbook<tspan font-family="Georgia,serif" font-style="italic">LM</tspan></text>
+    <path d="m495 42 26 26m0-26-26 26M508 30v50M483 55h50" stroke="#4d593a" stroke-width="3"/>
+  </g>
+  <text x="1265" y="1045" fill="#7e6759" font-family="monospace" font-size="13">THINK OUTSIDE</text>
+  <text x="1265" y="1067" fill="#7e6759" font-family="monospace" font-size="13">THE DOCUMENT.</text>
+</svg>

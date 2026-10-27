@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="shell" x1="0" y1="0" x2=".9" y2="1"><stop stop-color="#e7def4"/><stop offset=".42" stop-color="#c8b6df"/><stop offset="1" stop-color="#9984b4"/></linearGradient>
+    <linearGradient id="edge" x2="0" y2="1"><stop stop-color="#c5b2dc"/><stop offset="1" stop-color="#8b76a4"/></linearGradient>
+    <filter id="shadow"><feDropShadow dy="16" stdDeviation="13" flood-color="#3d3151" flood-opacity=".15"/></filter>
+  </defs>
+  <g filter="url(#shadow)">
+    <rect x="337" y="503" width="112" height="84" rx="12" fill="url(#edge)"/>
+    <rect x="117" y="142" width="530" height="374" rx="25" fill="url(#shell)" stroke="#b39dc9" stroke-width="2"/>
+    <rect x="137" y="166" width="490" height="312" rx="9" fill="#ddd7de" stroke="#a99db4" stroke-width="3"/>
+    <rect x="148" y="175" width="382" height="279" rx="11" fill="#463b53"/>
+    <rect x="160" y="186" width="358" height="258" rx="20" fill="#292137"/>
+    <rect x="548" y="176" width="64" height="279" rx="5" fill="#c3b0d6" stroke="#b5a0ca"/>
+    <circle cx="580" cy="209" r="7" fill="#e2ebc4"/>
+    <path d="M565 253h30M565 264h30M565 275h30" stroke="#9781ac" stroke-width="4" stroke-linecap="round"/>
+    <text x="157" y="499" fill="#625171" font-family="monospace" font-size="10">EESHA / PERSONAL SYSTEM</text>
+    <rect x="553" y="489" width="39" height="10" rx="2" fill="#ecd0ab"/>
+    <path d="m145 571 476 0 52 92H93Z" fill="url(#shell)" stroke="#b19ac8" stroke-width="2"/>
+    <path d="M93 663h580v19H93Z" fill="url(#edge)"/>
+    <path d="m169 583 432 0 30 61H136Z" fill="#a390b8"/>
+    <g fill="#f1eeeb" stroke="#c3b6cb" stroke-width="2">
+      <path d="m177 589 30 0-3 11h-32zM218 589h30l-1 11h-32zM259 589h30v11h-32zM300 589h30l1 11h-32zM341 589h30l1 11h-32zM382 589h30l2 11h-32zM423 589h30l3 11h-32zM464 589h30l4 11h-32zM505 589h30l5 11h-32zM546 589h30l6 11h-32z"/>
+      <path d="m169 607 32 0-3 11h-34zM213 607h32l-1 11h-34zM257 607h32v11h-34zM301 607h32l1 11h-34zM345 607h32l1 11h-34zM389 607h32l2 11h-34zM433 607h32l3 11h-34zM477 607h32l4 11h-34zM521 607h32l5 11h-34z"/>
+      <path d="m159 625 34 0-4 12h-36zM205 625h34l-2 12h-36zM251 625h220l3 12H249zM483 625h34l5 12h-36zM529 625h34l6 12h-36z"/>
+    </g>
+    <path d="m565 607 30 0 7 11h-33zM574 625h32l7 12h-35z" fill="#efd0ac" stroke="#d5b69a" stroke-width="2"/>
+    <path d="M647 465c25 39 20 111 41 136s40 23 40 49-27 40-48 39" fill="none" stroke="#71627f" stroke-width="8"/>
+    <path d="M138 151h489" stroke="#faf6ff" stroke-opacity=".65" stroke-width="3"/>
+  </g>
+</svg>
