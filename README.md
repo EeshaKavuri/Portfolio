@@ -21,7 +21,32 @@ npm run preview
 ```
 
 The production preview runs at `http://127.0.0.1:4177`. The `dist` folder is
-the static deployment artifact. Nothing is automatically published.
+the static deployment artifact. These local commands do not publish the site.
+
+## Deploy to GitHub Pages
+
+The workflow in `.github\workflows\deploy-pages.yml` builds and deploys
+`EeshaKavuri/Portfolio` whenever changes are pushed to `main`. It uses Node.js 24,
+installs the locked dependencies, checks formatting, builds the site, and uploads
+only `dist`. No personal access token or repository secret is needed.
+
+For the first deployment:
+
+1. Commit and push the portfolio source, lockfile, and workflow to `main`.
+2. In the GitHub repository, open **Settings > Pages**. Under **Build and
+   deployment**, set **Source** to **GitHub Actions**.
+3. Open **Actions > Deploy portfolio to GitHub Pages > Run workflow**, choose
+   `main`, and run it. This also retries the deployment if the initial push
+   triggered a run before Pages was enabled.
+
+After the deployment succeeds, the site will be available at
+`https://eeshakavuri.github.io/Portfolio/`. Future pushes to `main` redeploy it
+automatically; local edits alone do not publish anything.
+
+The existing relative Vite base (`./`) keeps scripts, fonts, images, and downloads
+working under `/Portfolio/` without changing the local development URL.
+Do not commit `dist`, `node_modules`, or `artifacts`. The published site does
+include the downloadable resume PDF in `public`.
 
 ## Edit
 
